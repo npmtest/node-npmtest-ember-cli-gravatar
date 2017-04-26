@@ -1,6 +1,6 @@
 # npmtest-ember-cli-gravatar
 
-#### basic test coverage for  ember-cli-gravatar (v3.8.2)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-gravatar.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-gravatar) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-gravatar.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-gravatar)
+#### basic test coverage for  [ember-cli-gravatar (v3.8.3)](https://github.com/johnotander/ember-cli-gravatar#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-gravatar.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-gravatar) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-gravatar.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-gravatar)
 
 #### Component for gravatar image tags
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ember-cli-gravatar/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ember-cli-gravatar/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ember-cli-gravatar/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ember-cli-gravatar/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-cli-gravatar/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-cli-gravatar/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ember-cli-gravatar/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ember-cli-gravatar/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-cli-gravatar/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-cli-gravatar/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ember-cli-gravatar/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ember-cli-gravatar/build/coverage.html/index.html)
 
@@ -35,24 +35,20 @@
 ```json
 
 {
-    "name": "ember-cli-gravatar",
-    "version": "3.8.2",
+    "author": {
+        "name": "John Otander"
+    },
+    "bugs": {
+        "url": "https://github.com/johnotander/ember-cli-gravatar/issues"
+    },
+    "dependencies": {
+        "blueimp-md5": "^2.7.0",
+        "broccoli-funnel": "^1.2.0",
+        "broccoli-merge-trees": "^2.0.0",
+        "ember-cli-babel": "^5.1.6",
+        "ember-cli-htmlbars": "^1.0.3"
+    },
     "description": "Component for gravatar image tags",
-    "directories": {
-        "doc": "doc",
-        "test": "tests"
-    },
-    "scripts": {
-        "build": "ember build",
-        "start": "ember server",
-        "test": "ember try:testall"
-    },
-    "repository": "johnotander/ember-cli-gravatar",
-    "engines": {
-        "node": ">= 0.10.0"
-    },
-    "author": "John Otander",
-    "license": "MIT",
     "devDependencies": {
         "broccoli-asset-rev": "^2.4.2",
         "ember-ajax": "0.7.1",
@@ -74,19 +70,47 @@
         "ember-try": "^0.2.2",
         "loader.js": "^4.0.1"
     },
+    "directories": {
+        "doc": "doc",
+        "test": "tests"
+    },
+    "dist": {
+        "shasum": "0d91c58d0095cf0fa522072c710936fe863cebe6",
+        "tarball": "https://registry.npmjs.org/ember-cli-gravatar/-/ember-cli-gravatar-3.8.3.tgz"
+    },
+    "ember-addon": {
+        "configPath": "tests/dummy/config"
+    },
+    "engines": {
+        "node": ">= 0.10.0"
+    },
+    "gitHead": "932070e48a4cc9f00b2fec4784dc317d0c6b7535",
+    "homepage": "https://github.com/johnotander/ember-cli-gravatar#readme",
     "keywords": [
         "gravatar",
         "avatar",
         "component",
         "ember-addon"
     ],
-    "dependencies": {
-        "ember-cli-babel": "^5.1.6",
-        "ember-cli-htmlbars": "^1.0.3"
+    "license": "MIT",
+    "maintainers": [
+        {
+            "name": "johno"
+        }
+    ],
+    "name": "ember-cli-gravatar",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/johnotander/ember-cli-gravatar.git"
     },
-    "ember-addon": {
-        "configPath": "tests/dummy/config"
-    }
+    "scripts": {
+        "build": "ember build",
+        "start": "ember server",
+        "test": "ember try:testall"
+    },
+    "version": "3.8.3",
+    "bin": {}
 }
 ```
 
